@@ -1,0 +1,18 @@
+version: "3.7"
+services:
+  jupyter:
+    image: jupyter/tensorflow-notebook
+    container_name: jupyter_udemy
+    command: ["jupyter", "notebook", "--allow-root", "--NotebookApp.token=''"]
+    environment:
+      GRANT_SUDO: "yes"
+    user: root
+    volumes:
+      - .:/home/jovyan/work/:Z
+      - /usr/bin/docker:/usr/bin/docker:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    ports:
+      - "8888:8888"
+    deploy:
+      restart_policy:
+        condition: on-failure
