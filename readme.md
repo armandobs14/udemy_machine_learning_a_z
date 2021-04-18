@@ -39,10 +39,13 @@ Course Repository
 4. Clustering
     - K-Means
     - Hierarchical Clustering
+        - [Python](./Part%204%20-%20Clustering/Section%2025%20-%20Hierarchical%20Clustering/Python%20-%20Hierarchical%20Clustering.ipynb)
 
 5. Association Rule
     - Apriori
+        - [Python](./Part%205%20-%20Association%20Rule%20Learning/Section%2028%20-%20Apriori/Python%20-%20Apriori.ipynb)
     - Eclat
+        - [Python](./Part%205%20-%20Association%20Rule%20Learning/Section%2029%20-%20Eclat/Python%20-%20Eclat.ipynb)
 
 6. Reinforcement Learning
     - UCB
